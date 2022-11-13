@@ -1,6 +1,16 @@
 
-
-@media screen and (max-width:845px) {
+.modal{
+  background: rgba(64, 64, 64, 0.3);
+}
+@media screen and (max-width:980px) {
+    .image-none{
+      width: 18rem;
+    }
+    .textbox{
+      width: 28rem;
+    }
+}
+@media screen and (max-width:760px) {
     .image-none{
       display: none;
     }
