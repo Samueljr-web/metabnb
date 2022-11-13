@@ -1,5 +1,5 @@
 import MbToken from '../assets/mb.png'
-import MetaMaskDark from '../assets/Metamask-dark.png'
+import MetaMaskDark from '../assets/metamask-dark.png'
 import OpenSea from '../assets/opensea.png'
 import Facebook from '../assets/social-icons/facebook.png'
 import Instagram from '../assets/social-icons/instagram.png'
