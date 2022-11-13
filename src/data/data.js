@@ -12,6 +12,14 @@ import Frame5 from '../assets/frames/frame 5.webp'
 import Frame6 from '../assets/frames/frame 6.webp'
 import Frame7 from '../assets/frames/frame 7.webp'
 import Frame8 from '../assets/frames/frame 8.webp'
+import Frame9 from '../assets/frames/frame 9.webp'
+import Frame10 from '../assets/frames/frame 10.webp'
+import Frame11 from '../assets/frames/frame 11.webp'
+import Frame12 from '../assets/frames/frame 12.webp'
+import Frame13 from '../assets/frames/frame 13.webp'
+import Frame14 from '../assets/frames/frame 14.webp'
+import Frame15 from '../assets/frames/frame 15.webp'
+import Frame16 from '../assets/frames/frame 16.webp'
 import Star from '../assets/star.svg'
 import metaMask from "../assets/metamask.png";
 import wallet from "../assets/wallet connect.png";
@@ -107,6 +115,13 @@ export const quicklinks2 = [
 
 export const Inspirations = [
     {
+      image: Frame1,
+      name: 'Desert king',
+      cost: '1MBT per night',
+      km: '2345km away',
+      available: 'available for 2 weeks stay'
+    },
+    {
       image: Frame2,
       name: 'Desert king',
       cost: '1MBT per night',
@@ -142,13 +157,6 @@ export const Inspirations = [
       available: 'available for 2 weeks stay'
     },
     {
-      image: Frame1,
-      name: 'Desert king',
-      cost: '1MBT per night',
-      km: '2345km away',
-      available: 'available for 2 weeks stay'
-    },
-    {
       image: Frame7,
       name: 'Desert king',
       cost: '1MBT per night',
@@ -161,7 +169,63 @@ export const Inspirations = [
       cost: '1MBT per night',
       km: '2345km away',
       available: 'available for 2 weeks stay'
-    },
+    }, 
+    {
+      image: Frame9,
+      name: 'Desert king',
+      cost: '1MBT per night',
+      km: '2345km away',
+      available: 'available for 2 weeks stay'
+    }, 
+    {
+      image: Frame10,
+      name: 'Desert king',
+      cost: '1MBT per night',
+      km: '2345km away',
+      available: 'available for 2 weeks stay'
+    }, 
+    {
+      image: Frame11,
+      name: 'Desert king',
+      cost: '1MBT per night',
+      km: '2345km away',
+      available: 'available for 2 weeks stay'
+    }, 
+    {
+      image: Frame12,
+      name: 'Desert king',
+      cost: '1MBT per night',
+      km: '2345km away',
+      available: 'available for 2 weeks stay'
+    }, 
+    {
+      image: Frame13,
+      name: 'Desert king',
+      cost: '1MBT per night',
+      km: '2345km away',
+      available: 'available for 2 weeks stay'
+    }, 
+    {
+      image: Frame14,
+      name: 'Desert king',
+      cost: '1MBT per night',
+      km: '2345km away',
+      available: 'available for 2 weeks stay'
+    }, 
+    {
+      image: Frame15,
+      name: 'Desert king',
+      cost: '1MBT per night',
+      km: '2345km away',
+      available: 'available for 2 weeks stay'
+    }, 
+    {
+      image: Frame16,
+      name: 'Desert king',
+      cost: '1MBT per night',
+      km: '2345km away',
+      available: 'available for 2 weeks stay'
+    }, 
 ]
 
 export const Stars = [
