@@ -5,8 +5,8 @@ import {NftPlatforms} from '../../../data/data'
 function HeroSection() {
   return (
     <div>
-      <div className="flex xl:px-20 md:px-16 px-4 py-20 items-center justify-between">
-        <div className="lg:w-[30rem] xl:w-[35rem] w-[18rem]">
+      <div className="flex xl:px-20 md:px-12 px-4 py-20 items-center justify-between">
+        <div className="md:w-[30rem] xl:w-[35rem] w-[18rem] textbox">
           <h2 className="xl:text-[3rem] lg:text-[2rem]  text-[1.5rem]">
             Rent a <span className="text-[#A02279]">Place</span> away from{" "}
             <span className="text-[#A02279]">Home</span> in the{" "}
@@ -32,7 +32,7 @@ function HeroSection() {
           <img src={HeroImage} alt="hero-img" className="w-full" />
         </div>
       </div>
-      <div className="bg-[#A02279] w-full h-16 flex space-x-2 justify-around items-center">
+      <div className="bg-[#A02279] w-full md:h-16 h-10 flex space-x-2 justify-around items-center">
         {NftPlatforms.map((platforms, index) => {
           return (
             <div
