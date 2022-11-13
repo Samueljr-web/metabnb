@@ -1,10 +1,21 @@
 import './App.css';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import {Navbar, Footer} from './components'
+import PlaceToStay from './pages/places'
+import Home from './pages/Home/index.js'
 
 function App() {
   return (
-    <div className="">
-      <h2>Metabnb</h2>
-    </div>
+    <>
+      <Router>
+       <Navbar />
+        <Routes>
+          <Route path='/' element={<Home />}/>
+          <Route path='/placetostay' element={<PlaceToStay />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </>
   );
 }
 
