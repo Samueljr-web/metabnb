@@ -12,21 +12,27 @@ function PlaceToStay() {
   }, [])
   
   return (
-    <div className="">
+    <div className=" items-center justify-center">
       <Modal />
-      <div className="flex md:px-9 px-6 my-10 items-center space-x-16 md:overflow-x-scroll scroll-m-5">
-        {subNav.map((items) => {
-          return (
-            <div key={items.id} className="text-[#434343]">
-              <a href={items.href}>{items.name}</a>
-            </div>
-          );
-        })}
-
-        <button className='flex border-2 bg-transparent rounded-lg p-2'>
-          Location
-          <img src={Settings} alt='' className='ml-3'/>
-        </button>
+      <div className="flex">
+        <div className="customized-scroll flex xl:px-20 md:px-9 px-6 my-10 items-center md:space-x-16 space-x-4 md:overflow-x-auto overflow-x-scroll scroll-m-5">
+          {subNav.map((items) => {
+            return (
+              <div key={items.id} className="text-[#434343] flex-none">
+                <a href={items.href}>{items.name}</a>
+              </div>
+            );
+          })}
+        </div>
+        <div className="flex items-center mr-1">
+          <button className="md:flex hidden w-[8rem] justify-center border-2 bg-transparent rounded-lg p-2 px-">
+            Location
+            <img src={Settings} alt="" className="ml-5" />
+          </button>
+          <button className="md:hidden items-center justify-center p-2 w-[3rem] flex border-2 bg-transparent rounded-lg">
+            <img src={Settings} alt="" className="w-fit" />
+          </button>
+        </div>
       </div>
       <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1">
         {Inspirations.map((Inspiration, index) => {
@@ -34,7 +40,7 @@ function PlaceToStay() {
             <div
               className="relative border-2 w-60 h-[18rem] p-3 mt-4 mx-auto rounded-xl"
               key={index}
-              data-aos='zoom-in-up'
+              data-aos="zoom-in-up"
             >
               <img
                 src={Heart}

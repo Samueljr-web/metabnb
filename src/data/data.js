@@ -1,6 +1,6 @@
 import MbToken from '../assets/mb.png'
-import MetaMaskDark from '../assets/metamask-dark.png'
-import OpenSea from '../assets/opensea.png'
+import MetaMaskDark from '../assets/metamask-dark.webp'
+import OpenSea from '../assets/opensea.webp'
 import Facebook from '../assets/social-icons/facebook.png'
 import Instagram from '../assets/social-icons/instagram.png'
 import Twitter from '../assets/social-icons/twitter.png'
@@ -21,8 +21,8 @@ import Frame14 from '../assets/frames/frame 14.webp'
 import Frame15 from '../assets/frames/frame 15.webp'
 import Frame16 from '../assets/frames/frame 16.webp'
 import Star from '../assets/star.svg'
-import metaMask from "../assets/metamask.png";
-import wallet from "../assets/wallet connect.png";
+import metaMask from "../assets/metamask.webp";
+import wallet from "../assets/wallet connect.webp";
 import chevronRight from "../assets/right-chevron.png";
 
 // import Frame9 from '../assets/frames/frame 9.webp'

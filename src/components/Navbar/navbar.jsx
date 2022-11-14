@@ -12,9 +12,9 @@ function Navbar() {
 
   return (
     <div>
-     <nav className='flex justify-between pt-6 xl:px-20 md:px-9 px-4'>
-        <div className='md:w-[10rem] xl:w-fit w-[10rem] leading-10'>
-          <img src={Logo} alt="nav_brand" className='w-full'></img>
+     <nav className='flex justify-between pt-6 xl:px-20 md:px-9 px-2'>
+        <div className='md:w-[10rem] xl:w-fit w-[10rem]'>
+          <img src={Logo} alt="nav-brand" className='w-full' />
         </div>
 
         <div className='md:relative md:block hidden fixed top-0 left-0 z-10 md:bg-inherit md:bg-[#A02279] bg-[#222] md:p-0 md:h-0 h-full p-10'>

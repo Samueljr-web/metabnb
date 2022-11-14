@@ -2,6 +2,17 @@
 .modal{
   background: rgba(64, 64, 64, 0.3);
 }
+.customized-scroll::-webkit-scrollbar-thumb{
+    background-color: #aa9ea6;
+    height: 5px;
+    width: 5px;
+  }
+.customized-scroll::-webkit-scrollbar{
+    height: 5px;
+    width: 5px;
+  }
+  
+
 @media screen and (max-width:980px) {
     .image-none{
       width: 18rem;

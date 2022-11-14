@@ -21,7 +21,7 @@ function HeroSection() {
             <input
               type="text"
               placeholder="search for location"
-              className="border-2 outline-none md:p-3 p-2 lg:w-[26rem] w-[12rem] lg:h-fit h-[2.5rem] rounded-tl-md rounded-bl-md"
+              className="border-2 outline-none md:p-3 p-2 lg:w-[26rem] w-[14rem] lg:h-fit h-[2.5rem] rounded-tl-md rounded-bl-md"
             />
             <button className="bg-[#A02279] text-white lg:py-3 py-1 lg:px-10 px-2 rounded-tr-md rounded-br-md">
               Search

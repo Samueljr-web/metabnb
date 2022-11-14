@@ -11,9 +11,9 @@ function Modal() {
       document.body.style.overflowY = "auto";
    } 
   return (
-    <div className="fixed z-10  top-0 left-0 w-full h-full modal hidden">
+    <div className="fixed z-10 top-0 left-0 w-full h-full modal hidden">
       <div className='flex items-center h-screen justify-center'>
-        <div className="bg-white rounded-lg w-[28rem] h-[18rem] z-10">
+        <div className="bg-white rounded-lg w-[28rem] h-[19rem] z-10 mx-2">
           <div className="flex items-center justify-between p-5">
             <h2 className="text-lg">Connect Wallet</h2>
             <button onClick={handleCloseModal}>
