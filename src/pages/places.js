@@ -2,7 +2,7 @@ import React, {useEffect} from 'react'
 import Heart from "../assets/heart.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import AOS from "aos";
-import { Inspirations, Stars, subNav } from "../data/data";
+import { placetostay, Stars, subNav } from "../data/data";
 import{Modal} from '../components/'
 import Settings from '../assets/setting-5.svg'
 
@@ -24,7 +24,7 @@ function PlaceToStay() {
             );
           })}
         </div>
-        <div className="flex items-center mr-1">
+        <div className="flex items-center md:mr-10 mr-1">
           <button className="md:flex hidden w-[8rem] justify-center border-2 border-[#B4B4B4] bg-transparent rounded-lg p-2 px-">
             Location
             <img src={Settings} alt="" className="ml-5" />
@@ -35,7 +35,7 @@ function PlaceToStay() {
         </div>
       </div>
       <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1">
-        {Inspirations.map((Inspiration, index) => {
+        {placetostay.map((Inspiration, index) => {
           return (
             <div
               className="relative border-2 border-[#D7D7D7] w-60 h-[18rem] p-3 mt-4 mx-auto rounded-xl"
