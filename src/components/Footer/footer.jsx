@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div className='flex bg-[#1D1D1E] text-white p-10 md:px-16 mt-5'>
        
-        <div className="grid md:grid-cols-4 grid-cols-1">
+        <div className="grid md:grid-cols-4 grid-cols-1 lg:space-x-36 md:space-x-10 space-x-0">
           <div className='mr-5'>
            <img src={Metabnb} alt='metabnb-logo' className='md:w-fit w-[13rem]' />
              <div className='md:block hidden'>
