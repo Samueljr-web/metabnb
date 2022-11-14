@@ -17,33 +17,39 @@ function Section1() {
          {Inspirations.map((Inspiration, index) =>{
             return index < 8 ? (
               <div
-                className="relative border-2 w-60 h-[18rem] p-3 mt-4 mx-auto rounded-xl"
+                className="relative border-2 border-[#D7D7D7] w-60 h-[18rem] p-3 mt-4 mx-auto rounded-xl"
                 key={index}
-                data-aos='zoom-in-up'
+                data-aos="zoom-in-up"
               >
-                <img src={Heart} alt='heart' className='absolute right-4 top-4 cursor-pointer' />
+                <img
+                  src={Heart}
+                  alt="heart"
+                  className="absolute right-4 top-4 cursor-pointer"
+                />
                 <LazyLoadImage
                   src={Inspiration.image}
                   alt="alt"
                   className="w-full h-44 rounded-xl object-fill"
                 />
                 <div>
-                    <div className='flex justify-between text-[.80rem] mt-5'>
-                        <h4>{Inspiration.name}</h4>
-                        <h4 className='font-bold'>{Inspiration.cost}</h4>
-                    </div>
-                    <div className='flex justify-between text-[.65rem] mt-1'>
-                        <h4>{Inspiration.km}</h4>
-                        <h4>{Inspiration.available}</h4>
-                    </div>
-                    <div className='flex space-x-1 mt-3'>
-                        {Stars.map(star =>{
-                          return  <img key={star.id} src={star.icon} alt='star-filled'/>
-                        })}
-                    </div>
+                  <div className="flex justify-between text-[.80rem] mt-5">
+                    <h4>{Inspiration.name}</h4>
+                    <h4 className="font-bold">{Inspiration.cost}</h4>
+                  </div>
+                  <div className="flex justify-between text-[.65rem] mt-1">
+                    <h4>{Inspiration.km}</h4>
+                    <h4>{Inspiration.available}</h4>
+                  </div>
+                  <div className="flex space-x-1 mt-3">
+                    {Stars.map((star) => {
+                      return (
+                        <img key={star.id} src={star.icon} alt="star-filled" />
+                      );
+                    })}
+                  </div>
                 </div>
               </div>
-            ): null;
+            ) : null;
          })}
      </div>
     </div>

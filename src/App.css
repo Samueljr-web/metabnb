@@ -3,7 +3,7 @@
   background: rgba(64, 64, 64, 0.3);
 }
 .customized-scroll::-webkit-scrollbar-thumb{
-    background-color: #aa9ea6;
+    background-color: #B4B4B4;
     height: 5px;
     width: 5px;
   }
@@ -12,7 +12,6 @@
     width: 5px;
   }
   
-
 @media screen and (max-width:980px) {
     .image-none{
       width: 18rem;

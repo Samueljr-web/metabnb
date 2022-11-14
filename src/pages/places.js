@@ -15,7 +15,7 @@ function PlaceToStay() {
     <div className=" items-center justify-center">
       <Modal />
       <div className="flex">
-        <div className="customized-scroll flex xl:px-20 md:px-9 px-6 my-10 items-center md:space-x-16 space-x-4 md:overflow-x-auto overflow-x-scroll scroll-m-5">
+        <div className="customized-scroll flex xl:px-20 md:px-9 px-6 my-10 items-center md:space-x-16 space-x-4 md:overflow-x-auto overflow-x-scroll scroll-m-5 md:border-r-0 border-r-2 mr-5">
           {subNav.map((items) => {
             return (
               <div key={items.id} className="text-[#434343] flex-none">
@@ -25,11 +25,11 @@ function PlaceToStay() {
           })}
         </div>
         <div className="flex items-center mr-1">
-          <button className="md:flex hidden w-[8rem] justify-center border-2 bg-transparent rounded-lg p-2 px-">
+          <button className="md:flex hidden w-[8rem] justify-center border-2 border-[#B4B4B4] bg-transparent rounded-lg p-2 px-">
             Location
             <img src={Settings} alt="" className="ml-5" />
           </button>
-          <button className="md:hidden items-center justify-center p-2 w-[3rem] flex border-2 bg-transparent rounded-lg">
+          <button className="md:hidden items-center justify-center p-2 w-[3rem] flex border-2 border-[#B4B4B4] bg-transparent rounded-lg">
             <img src={Settings} alt="" className="w-fit" />
           </button>
         </div>
@@ -38,7 +38,7 @@ function PlaceToStay() {
         {Inspirations.map((Inspiration, index) => {
           return (
             <div
-              className="relative border-2 w-60 h-[18rem] p-3 mt-4 mx-auto rounded-xl"
+              className="relative border-2 border-[#D7D7D7] w-60 h-[18rem] p-3 mt-4 mx-auto rounded-xl"
               key={index}
               data-aos="zoom-in-up"
             >
