@@ -27,7 +27,7 @@ function Modal() {
               return (
                 <div
                   key={items.id}
-                  className="p-1 rounded-lg flex items-center justify-between border-[1px]"
+                  className="p-1 rounded-lg cursor-pointer flex items-center justify-between border-[1px]"
                 >
                   <div className="flex items-center space-x-2">
                     <img src={items.icon} alt={items.imgAlt} className="w-10" />
