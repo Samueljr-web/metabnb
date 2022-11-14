@@ -36,7 +36,15 @@ function Navbar() {
         <div className='md:w-[10rem] xl:w-fit w-[10rem]'>
           <img src={Logo} alt="nav-brand" className='w-full' />
         </div>
-            <div onClick={() => handleIsOpen()} ref={menuRef} className='md:relative fixed top-0 left-0 md:translate-x-0  translate-x-[-100%] z-10 md:bg-inherit md:bg-[#A02279] bg-[#222] md:p-0 md:h-0 h-full p-10'>
+            <div className='md:block hidden z-10 md:p-0 md:h-0 h-full p-10'>
+            <ul className='flex md:flex-row flex-col lg:space-x-8 md:space-x-3 leading-10 md:text-[#434343] text-white'>
+                <Link to='/'>Home</Link>
+                <Link to='placetostay'>Place to stay</Link>
+                <Link to='/'>NFTs</Link>
+                <Link to='/'>Community</Link>
+            </ul>
+        </div>
+            <div onClick={() => handleIsOpen()} ref={menuRef} className='md:hidden block fixed top-0 left-0  translate-x-[-100%] z-10 bg-[#222] md:p-0 md:h-0 h-full p-10'>
             <ul className='flex md:flex-row flex-col lg:space-x-8 md:space-x-3 leading-10 md:text-[#434343] text-white'>
                 <Link to='/'>Home</Link>
                 <Link to='placetostay'>Place to stay</Link>
